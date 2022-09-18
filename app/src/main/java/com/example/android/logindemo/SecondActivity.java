@@ -76,12 +76,12 @@ public class SecondActivity extends AppCompatActivity {
 
         //logout = (Button)findViewById(R.id.btnLogout);
 
-        logout.setOnClickListener(new View.OnClickListener() {
+        /*logout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Logout();
             }
-        });
+        });*/
     }
 
     private void Logout(){
