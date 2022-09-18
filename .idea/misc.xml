@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Android Projects/Professor_DK-master/Professor_DK-master/Simple Login App Using Database/app/src/main/res/drawable/bg_bubble_self.xml" value="0.1" />
         <entry key="..\:/Android Projects/Professor_DK-master/Professor_DK-master/Simple Login App Using Database/app/src/main/res/layout/activity_main.xml" value="0.12" />
         <entry key="..\:/Android Projects/Professor_DK-master/Professor_DK-master/Simple Login App Using Database/app/src/main/res/layout/activity_password.xml" value="0.1" />
         <entry key="..\:/Android Projects/Professor_DK-master/Professor_DK-master/Simple Login App Using Database/app/src/main/res/layout/activity_profile.xml" value="0.1" />
@@ -10,6 +11,8 @@
         <entry key="..\:/Android Projects/Professor_DK-master/Professor_DK-master/Simple Login App Using Database/app/src/main/res/layout/activity_second.xml" value="0.14130434782608695" />
         <entry key="..\:/Android Projects/Professor_DK-master/Professor_DK-master/Simple Login App Using Database/app/src/main/res/layout/activity_update_password.xml" value="0.1" />
         <entry key="..\:/Android Projects/Professor_DK-master/Professor_DK-master/Simple Login App Using Database/app/src/main/res/layout/activity_update_profile.xml" value="0.1" />
+        <entry key="..\:/Android Projects/Professor_DK-master/Professor_DK-master/Simple Login App Using Database/app/src/main/res/layout/chat_item_self.xml" value="0.12291666666666666" />
+        <entry key="..\:/Android Projects/Professor_DK-master/Professor_DK-master/Simple Login App Using Database/app/src/main/res/layout/chat_item_watson.xml" value="0.12291666666666666" />
       </map>
     </option>
   </component>

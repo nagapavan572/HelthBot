@@ -74,7 +74,7 @@ public class SecondActivity extends AppCompatActivity {
         });
         firebaseAuth = FirebaseAuth.getInstance();
 
-        logout = (Button)findViewById(R.id.btnLogout);
+        //logout = (Button)findViewById(R.id.btnLogout);
 
         logout.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -173,13 +173,14 @@ public class SecondActivity extends AppCompatActivity {
 
         Message inputMessage = new Message();
         inputMessage.setMessage(input);
+        inputMessage.setId("100");
         messageArrayList.add(inputMessage);
 
         Thread thread = new Thread(new Runnable() {
             public void run() {
                 try {
                     if (watsonAssistantSession == null) {
-                        ServiceCall<SessionResponse> call = watsonAssistant.createSession(new CreateSessionOptions.Builder().assistantId("<assistant_id>").build());
+                        ServiceCall<SessionResponse> call = watsonAssistant.createSession(new CreateSessionOptions.Builder().assistantId("d525d368-9191-4502-99d1-d68d9e11ed5d").build());
                         watsonAssistantSession = call.execute();
                     }
 
@@ -187,7 +188,7 @@ public class SecondActivity extends AppCompatActivity {
                             .text(input)
                             .build();
                     MessageOptions options = new MessageOptions.Builder()
-                            .assistantId("assistant_id")
+                            .assistantId("d525d368-9191-4502-99d1-d68d9e11ed5d")
                             .input(messageInput)
                             .sessionId(watsonAssistantSession.getResult().getSessionId())
                             .build();
