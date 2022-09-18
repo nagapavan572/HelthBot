@@ -3,7 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Android Projects/Professor_DK-master/Professor_DK-master/Simple Login App Using Database/app/src/main/res/drawable/backgroud_splash.xml" value="0.1" />
         <entry key="..\:/Android Projects/Professor_DK-master/Professor_DK-master/Simple Login App Using Database/app/src/main/res/drawable/bg_bubble_self.xml" value="0.1" />
+        <entry key="..\:/Android Projects/Professor_DK-master/Professor_DK-master/Simple Login App Using Database/app/src/main/res/drawable/bg_bubble_watbot.xml" value="0.1" />
         <entry key="..\:/Android Projects/Professor_DK-master/Professor_DK-master/Simple Login App Using Database/app/src/main/res/layout/activity_main.xml" value="0.12" />
         <entry key="..\:/Android Projects/Professor_DK-master/Professor_DK-master/Simple Login App Using Database/app/src/main/res/layout/activity_password.xml" value="0.1" />
         <entry key="..\:/Android Projects/Professor_DK-master/Professor_DK-master/Simple Login App Using Database/app/src/main/res/layout/activity_profile.xml" value="0.1" />
