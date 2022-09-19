@@ -189,7 +189,7 @@ public class SecondActivity extends AppCompatActivity {
 
         Message inputMessage = new Message();
         inputMessage.setMessage(input);
-        inputMessage.setId("100");
+        inputMessage.setId("1");
         messageArrayList.add(inputMessage);
 
         Thread thread = new Thread(new Runnable() {
