@@ -1,8 +1,6 @@
 package com.example.android.logindemo;
 
-/**
- * Created by VMac on 17/11/16.
- */
+
 
 import android.app.Activity;
 import android.view.LayoutInflater;

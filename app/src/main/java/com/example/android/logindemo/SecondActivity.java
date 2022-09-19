@@ -14,6 +14,9 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.DefaultItemAnimator;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
 import com.androidnetworking.AndroidNetworking;
 import com.androidnetworking.common.Priority;
@@ -54,15 +57,27 @@ public class SecondActivity extends AppCompatActivity {
     EditText inputEditText;
     Button sendButton;
     Context context;
+    private ChatAdapter mAdapter;
+    private RecyclerView recyclerView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_second);
         messageArrayList = new ArrayList<>();
+        mAdapter = new ChatAdapter(messageArrayList);
+        recyclerView = findViewById(R.id.recycler_view);
+
         context = this;
         inputEditText = findViewById(R.id.inputEditText);
         sendButton = findViewById(R.id.sendButton);
+
+        LinearLayoutManager layoutManager = new LinearLayoutManager(this);
+        layoutManager.setStackFromEnd(true);
+        recyclerView.setLayoutManager(layoutManager);
+        recyclerView.setItemAnimator(new DefaultItemAnimator());
+        recyclerView.setAdapter(mAdapter);
+
         sendButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -82,6 +97,7 @@ public class SecondActivity extends AppCompatActivity {
                 Logout();
             }
         });*/
+
     }
 
     private void Logout(){
@@ -209,7 +225,16 @@ public class SecondActivity extends AppCompatActivity {
                             outMessage.setId("2");
                             messageArrayList.add(outMessage);
                         }
+                        runOnUiThread(new Runnable() {
+                            public void run() {
+                                mAdapter.notifyDataSetChanged();
+                                if (mAdapter.getItemCount() > 1) {
+                                    recyclerView.getLayoutManager().smoothScrollToPosition(recyclerView, null, mAdapter.getItemCount() - 1);
 
+                                }
+
+                            }
+                        });
 
                     }
                 } catch (Exception e) {
