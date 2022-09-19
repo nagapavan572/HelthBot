@@ -184,7 +184,7 @@ public class SecondActivity extends AppCompatActivity {
     }
 
     private void sendMessage(String input){
-        watsonAssistant = new Assistant("2022-09-17", new IamAuthenticator("6pYZKMxTxWfXbWfPxcJVyNHuN8x7qMbHhz1r6yOiT3YP"));
+        watsonAssistant = new Assistant("2022-09-19", new IamAuthenticator("6pYZKMxTxWfXbWfPxcJVyNHuN8x7qMbHhz1r6yOiT3YP"));
         watsonAssistant.setServiceUrl("https://api.eu-gb.assistant.watson.cloud.ibm.com/instances/2fa38d9d-d1ff-4621-a862-f579e25aa899");
 
         Message inputMessage = new Message();
@@ -196,7 +196,7 @@ public class SecondActivity extends AppCompatActivity {
             public void run() {
                 try {
                     if (watsonAssistantSession == null) {
-                        ServiceCall<SessionResponse> call = watsonAssistant.createSession(new CreateSessionOptions.Builder().assistantId("d525d368-9191-4502-99d1-d68d9e11ed5d").build());
+                        ServiceCall<SessionResponse> call = watsonAssistant.createSession(new CreateSessionOptions.Builder().assistantId("6b811e19-b193-4799-b164-6f66e840724b").build());
                         watsonAssistantSession = call.execute();
                     }
 
@@ -204,7 +204,7 @@ public class SecondActivity extends AppCompatActivity {
                             .text(input)
                             .build();
                     MessageOptions options = new MessageOptions.Builder()
-                            .assistantId("d525d368-9191-4502-99d1-d68d9e11ed5d")
+                            .assistantId("6b811e19-b193-4799-b164-6f66e840724b")
                             .input(messageInput)
                             .sessionId(watsonAssistantSession.getResult().getSessionId())
                             .build();
