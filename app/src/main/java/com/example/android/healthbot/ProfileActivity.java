@@ -1,10 +1,7 @@
-package com.example.android.logindemo;
+package com.example.android.healthbot;
 
-import android.app.ProgressDialog;
 import android.content.Intent;
-import android.graphics.Bitmap;
 import android.net.Uri;
-import android.provider.MediaStore;
 
 import android.os.Bundle;
 import android.view.MenuItem;

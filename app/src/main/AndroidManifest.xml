@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.android.logindemo">
+    package="com.example.android.healthbot">
 
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"></uses-permission>
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission>
@@ -12,7 +12,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity"
+        <activity android:name="com.example.android.healthbot.MainActivity"
             android:exported="true" >
 
             <intent-filter>
@@ -21,12 +21,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".SecondActivity" />
-        <activity android:name=".RegistrationActivity" />
-        <activity android:name=".PasswordActivity" />
-        <activity android:name=".ProfileActivity" />
-        <activity android:name=".UpdateProfile" />
-        <activity android:name=".UpdatePassword"></activity>
+        <activity android:name="com.example.android.healthbot.SecondActivity" />
+        <activity android:name="com.example.android.healthbot.RegistrationActivity" />
+        <activity android:name="com.example.android.healthbot.PasswordActivity" />
+        <activity android:name="com.example.android.healthbot.ProfileActivity" />
+        <activity android:name="com.example.android.healthbot.UpdateProfile" />
+        <activity android:name="com.example.android.healthbot.UpdatePassword"></activity>
     </application>
 
 </manifest>

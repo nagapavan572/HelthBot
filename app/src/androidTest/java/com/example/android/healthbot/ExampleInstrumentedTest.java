@@ -1,4 +1,4 @@
-package com.example.android.logindemo;
+package com.example.android.healthbot;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

@@ -1,4 +1,4 @@
-package com.example.android.logindemo;
+package com.example.android.healthbot;
 
 
 import com.ibm.watson.assistant.v2.model.RuntimeResponseGeneric;

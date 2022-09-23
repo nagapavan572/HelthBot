@@ -1,4 +1,4 @@
-package com.example.android.logindemo;
+package com.example.android.healthbot;
 
 
 
@@ -10,8 +10,6 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.recyclerview.widget.RecyclerView;
-
-import com.bumptech.glide.Glide;
 
 import java.util.ArrayList;
 

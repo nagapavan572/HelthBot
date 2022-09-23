@@ -1,6 +1,5 @@
-package com.example.android.logindemo;
+package com.example.android.healthbot;
 
-import android.app.Application;
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.net.Uri;
@@ -27,9 +26,7 @@ import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.storage.FirebaseStorage;
 import com.google.firebase.storage.StorageReference;
 import com.google.firebase.storage.UploadTask;
-import com.squareup.picasso.Picasso;
 
-import java.io.File;
 import java.io.IOException;
 
 public class RegistrationActivity extends AppCompatActivity {

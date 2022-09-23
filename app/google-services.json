@@ -1,33 +1,33 @@
 {
   "project_info": {
-    "project_number": "434350654198",
-    "project_id": "heathbot-a1838",
-    "storage_bucket": "heathbot-a1838.appspot.com"
+    "project_number": "324854348101",
+    "project_id": "healthcarebot-48fd9",
+    "storage_bucket": "healthcarebot-48fd9.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:434350654198:android:2d42f43c26b01a998522d7",
+        "mobilesdk_app_id": "1:324854348101:android:6f06ab30581b5b49e6a62c",
         "android_client_info": {
-          "package_name": "com.example.android.logindemo"
+          "package_name": "com.example.android.healthbot"
         }
       },
       "oauth_client": [
         {
-          "client_id": "434350654198-2vgpg3vual4vn0s77js6haendsj89ht6.apps.googleusercontent.com",
+          "client_id": "324854348101-qt8uer5vcjtntrrcjs40s3vqgbbmrh4g.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCzc0fW4XrIeQ_Ei2coLqU0p4dBTuholFk"
+          "current_key": "AIzaSyDNpZWp4MZkVC3BJEk2YFaJ7qSLAgiOxP0"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "434350654198-2vgpg3vual4vn0s77js6haendsj89ht6.apps.googleusercontent.com",
+              "client_id": "324854348101-qt8uer5vcjtntrrcjs40s3vqgbbmrh4g.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

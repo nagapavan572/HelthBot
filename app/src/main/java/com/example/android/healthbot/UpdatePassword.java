@@ -1,4 +1,4 @@
-package com.example.android.logindemo;
+package com.example.android.healthbot;
 
 import android.support.annotation.NonNull;
 import android.os.Bundle;

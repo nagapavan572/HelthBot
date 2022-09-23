@@ -4,7 +4,7 @@ android {
     compileSdkVersion 33
     buildToolsVersion '28.0.3'
     defaultConfig {
-        applicationId "com.example.android.logindemo"
+        applicationId "com.example.android.healthbot"
         minSdkVersion 21
         targetSdkVersion 33
         versionCode 1
